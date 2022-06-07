@@ -1,0 +1,15 @@
+.pagina-inicial{
+    background: linear-gradient(#000000, #1d0516, #921281);
+}
+
+.sobre-mim{
+    background: linear-gradient(#921281, #1d0516, #000000);
+}
+
+.meus-projetos{
+    background: linear-gradient(#000000, #1d0516, #921281);
+}
+
+.contate-me{
+    background: linear-gradient(#921281, #1d0516, #000000);
+}
