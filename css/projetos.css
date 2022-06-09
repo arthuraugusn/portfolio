@@ -1,0 +1,31 @@
+.projetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-grande{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div-projetos a:hover{
+    background-color: inherit;
+    
+}
+
+.div-projetos{
+    transition: transform 1s
+}
+
+.div-projetos:hover{
+    transform: scale(1.1);
+    transition: ease-in-out .7s;
+}
+
+.div-projetos{
+    transition: all ease-in-out 0.7s;
+    border: solid rgba(255, 255, 255, 0.438);
+    color: white;
+    text-align: center;
+}

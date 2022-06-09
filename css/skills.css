@@ -1,0 +1,14 @@
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-teste1{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div-skills{
+    justify-content: center;
+}

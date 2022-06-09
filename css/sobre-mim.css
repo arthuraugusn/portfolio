@@ -1,0 +1,19 @@
+.sobre-mim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-teste{
+    align-items: center;
+    justify-content:space-around;
+}
+
+.img-programador{
+    width: 38%;
+}
+
+.texto p{
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 1.5rem;
+}
