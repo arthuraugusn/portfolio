@@ -1,0 +1,22 @@
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../imgs/gif-3.gif);
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.447);
+    font-size: 1.4rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.redes-sociais{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.8rem;
+}
+.link-redes:hover{
+    transition: all ease-in-out .8s;
+    transform:scale(1.2);
+    background-color: inherit;
+}

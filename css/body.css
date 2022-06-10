@@ -1,8 +1,26 @@
-.pagina-inicial, .projetos{
-    background: linear-gradient(#9d0989, #390340, #070154);
+.pagina-inicial{
+    background-image: url(../imgs/gif-universo.gif);
+}
+
+.projetos{
+    background: linear-gradient(#761869, #120213, #000000);
 }
 
 
-.sobre-mim ,.skills{
-    background: linear-gradient(#070154, #390340, #9d0989);
+.sobre-mim{
+    background: linear-gradient(#000000, #120213, #761869);
+}
+
+.skills{
+    background: linear-gradient(#000000, #5e2462, #000000);
+}
+
+footer{
+    height: 10vh;
+}
+
+@media(max-width:493px){
+    footer{
+        height: 10vw;
+    }
 }
