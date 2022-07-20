@@ -7,6 +7,11 @@
 .minha-foto{
     border-radius: 100%;
     width: 15em;
+<<<<<<< HEAD
+    border:solid rgba(255, 255, 255, 0.329) ;
+=======
+    border: solid rgba(255, 255, 255, 0.288);
+>>>>>>> b67a4efefcdc1855b84064932aaa5ac20ab76781
 }
 
 .itens-sobre-mim{

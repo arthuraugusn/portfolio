@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/sobre-mim.css">
     <link rel="stylesheet" href="./css/projetos.css">
     <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <title>Portfólio</title>
 </head>
 <body>
@@ -29,7 +30,7 @@
                         <a href="#projetos" class="pure-menu-link itens-header">Projetos</a>
                     </li>
                     <li class="pure-menu-item">
-                        <a href="#skills" class="pure-menu-link itens-header">Skills</a>
+                        <a href="#skills" class="pure-menu-link itens-header skill-header">Skills</a>
                     </li>
                     <li class="pure-menu-item">
                         <a href="#contato" class="pure-menu-link itens-header">Contato</a>
@@ -52,7 +53,7 @@
                             </h1>
                         </li>
                         <li class="pure-menu-item itens-sobre-mim">
-                            <img src="./imgs/minha-foto.jfif" class="pure-img minha-foto" alt="">
+                            <img src="./imgs/minha-foto.jpg" class="pure-img minha-foto" alt="">
                         </li>
                         <li class="pure-menu-item itens-sobre-mim teste">
                             <p>
@@ -117,23 +118,41 @@
             </div>  
         </section>
         <section class="skills" id="skills">
-            <div class="pure-g div-teste1 pure-menu-horizontal">
-                <ul class="pure-menu-list div-skills">
-                    <li class="pure-menu-item teste1">
-                        <img src="./imgs/html.png" class="pure-img" alt="">
-                    </li>
-                    <li class="pure-menu-item teste1">
-                        <img src="./imgs/css.png" alt="" class="pure-img">
-                    </li>
-                    <li class="pure-menu-item teste1">
-                        <img src="./imgs/java.png" alt="" class="pure-img">
-                    </li>
-                </ul>
+            <div class="pure-g div-skills">
+                <div class="pure-u-1 pure-u-md-1-4 pure-u-lg-1-4 mini-div-skills">
+                    <img src="./imgs/html.png" alt="" class="pure-img">
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 mini-div-skills">
+                    <img src="./imgs/css.png" alt="" class="pure-img">
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 mini-div-skills">
+                    <img src="./imgs/java.png" alt="" class="pure-img">
+                </div>
             </div>
         </section>
     </main>
-    <footer>
-        <section class="contate-me" id="contato"></section>
+    <footer id="contato" class="contate-me">
+        <div class="pure-g">
+            <div class="pure-menu pure-u">
+                <a href="https://github.com/arthuraugusn" class="pure-menu-link link-redes"><i class="fa-brands fa-github redes-sociais"></i></a>
+            </div>
+            <div class="pure-menu pure-u">
+                <a href="#" class="pure-menu-link link-redes"><i class="fa-brands fa-linkedin redes-sociais"></i></a>
+            </div> 
+        </div>
+        <div class="pure-g">
+            <h2 class="copyright">
+                COPYRIGHT | © Arthur Augusto 
+            </h2>
+        </div>
+        <div class="pure-g">
+            <div class="pure-menu pure-u">
+                <a href="#" class="pure-menu-link link-redes"><i class="fa-brands fa-instagram redes-sociais"></i></a>
+            </div>
+            <div class="pure-menu pure-u">
+                <a href="#" class="pure-menu-link link-redes"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
